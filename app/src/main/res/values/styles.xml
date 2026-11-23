@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DeWebGlassDialog" parent="@android:style/Theme.Material.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/glass_dialog_bg</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.55</item>
+        <item name="android:textColorPrimary">#EAF7EF</item>
+        <item name="android:textColorSecondary">#B3C9DED2</item>
+        <item name="android:colorAccent">#56E6B0</item>
+        <item name="android:editTextColor">#EAF7EF</item>
+        <item name="android:colorControlNormal">#56E6B0</item>
+        <item name="android:windowNoTitle">false</item>
+    </style>
+
+    <style name="DeWebCloudAuthTheme" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.55</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:colorAccent">#56E6B0</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="DeWebAppTheme" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:alertDialogTheme">@style/DeWebGlassDialog</item>
+    </style>
+</resources>
